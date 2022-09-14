@@ -356,7 +356,7 @@ Accept wildcard characters: False
 ```
 
 ### -EnableEndUserSpamNotifications
-The EnableEndUserSpamNotification parameter enables for disables sending end-user spam quarantine notifications. Valid values are:
+The EnableEndUserSpamNotification parameter enables or disables sending end-user spam quarantine notifications. Valid values are:
 
 - $true: End-users periodically receive notifications when a messages that was supposed to be delivered to them was quarantined as spam. When you use this value, you can also use the EndUserSpamNotificationCustomSubject, EndUserSpamNotificationFrequency, and EndUserSpamNotificationLanguage parameters.
 - $false: end-user spam quarantine notifications are disabled. This is the default value.
